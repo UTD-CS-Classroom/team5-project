@@ -20,7 +20,7 @@
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
 ## 4. Requirements Specification
-### Functional requirements:
+### Functional requirements
   * The system shall let users search businesses by location, specialty, and next available time. 
   * The system shall let users set a budget range that is applied during the booking step without showing exact prices before booking. 
   * The system shall show a profile for each employer with specialties, experience, and a small portfolio. 
