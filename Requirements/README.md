@@ -4,10 +4,10 @@
 * This idea will be a hybrid, because the first initial parts will be plan-driven for the core elements of the application. And then agile so we can add features according to any upcoming new ideas that will make the application more pleasant to use.
 
 ## 2. Stakeholders 
-`Business owners:` They will be able to advertise their business and see how well it is doing. 
-`Customers:` Have a centralized way to set up appointments with businesses in a convenient manner. 
-`Employees of the businesses:` Have an anticipated way to get ready for customers. 
-`Business managers:` Set a schedule and track the shop performance. 
+- `Business owners:` They will be able to advertise their business and see how well it is doing. 
+- `Customers:` Have a centralized way to set up appointments with businesses in a convenient manner. 
+- `Employees of the businesses:` Have an anticipated way to get ready for customers. 
+- `Business managers:` Set a schedule and track the shop performance. 
 
 ## 3. Requirements Elicitation 
 - We will gather up the necessary requirements by brainstorming within the group on the a set of questions. 
