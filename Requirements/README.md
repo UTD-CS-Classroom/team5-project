@@ -52,7 +52,7 @@
  Connects to requirements 8, 9. 
 
 ### 3. Requirements in two formats 
-#### a. Text based in natural language 
+### a. Text based in natural language 
 * Calendar with bookable slots 
   We will show a simple calendar for each business that clearly lists open times you can pick. This matters because people want to see what is actually free before they enter details. We will test it by opening the page and making sure the calendar loads, shows the right free times, and blocks double bookings when two people try the same slot. 
 * Message thread before the visit 
@@ -64,7 +64,7 @@
 * Protect personal data and images 
   All personal data and images will be protected in two ways. Traffic in the browser uses secure transport, and stored data uses encryption. This keeps customer and shop information safe. We will test by checking the site uses secure connections everywhere and by reviewing how the database and file storage are set up for encryption. 
 
-#### b. UML diagram
+### b. UML diagram
 <img width="1177" height="1567" alt="image" style="border-radius: 10px;" src="https://github.com/user-attachments/assets/b12abdf5-296e-4860-8c3e-ad83558e64e4" />
 
 ## 5. Requirement Validation 
@@ -97,7 +97,7 @@
 * Even technical requirements like upload size limits are described in plain words and supported with testing criteria (“clear message when files exceed limit”). 
 
 ### 3. Traceability – do you know where it came from?  
-#### Each requirement can be traced back to a stakeholder need: 
+### Each requirement can be traced back to a stakeholder need: 
 * Customers → search businesses, upload photos, reschedule or cancel. 
 * Business owners → advertise their business, track performance. 
 * Employees → anticipate appointments via calendar. 
