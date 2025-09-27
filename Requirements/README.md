@@ -68,7 +68,7 @@
 <img width="1177" height="1567" alt="image" style="border-radius: 10px;" src="https://github.com/user-attachments/assets/b12abdf5-296e-4860-8c3e-ad83558e64e4" />
 
 ## 5. Requirement Validation 
-1. Verifiability – can you test it?  
+### 1. Verifiability – can you test it?  
   * Functional requirements are testable with direct actions. 
     - For search, we can test by searching for location, specialty, and next available time, and confirm the results match. 
     - For budget range, we can test by setting different ranges and confirm results respect the range without showing exact prices. 
@@ -91,22 +91,22 @@
     - For accessibility, we can test by running an accessibility audit to confirm forms, labels, color contrast, and keyboard-only navigation meet WCAG 2.1 AA standards.
     - For uploads, we can test by sending files under and over the 25MB limit to see if the system enforces rules correctly. 
 
-2. Comprehensibility – is it clear?  
+### 2. Comprehensibility – is it clear?  
 * Requirements are written in simple, natural language so all stakeholders (developers, businesses, customers, managers) can understand them. 
 * Example: “The system shall let users search businesses by location, specialty, and next available time” is unambiguous and easy to grasp. 
 * Even technical requirements like upload size limits are described in plain words and supported with testing criteria (“clear message when files exceed limit”). 
 
-3. Traceability – do you know where it came from?  
+### 3. Traceability – do you know where it came from?  
 * Each requirement can be traced back to a stakeholder need: 
 * Customers → search businesses, upload photos, reschedule or cancel. 
 * Business owners → advertise their business, track performance. 
 * Employees → anticipate appointments via calendar. 
 * Managers → set availability, manage performance. 
 
-4. Non-functional requirements are linked to functional ones (as noted in your document).  
+### 4. Non-functional requirements are linked to functional ones (as noted in your document).  
 * Performance connects to requirements like calendar (4), booking (5), messaging (8). 
 * Security and privacy connect to handling of personal data and uploaded files (5, 6, 7, 8, 9, 11, 12). 
 
-5. Adaptability – can it be changed later? 
+### 5. Adaptability – can it be changed later? 
 * The hybrid approach (plan-driven for core + agile for features) ensures adaptability. 
 * These requirements are written generally enough that the same structure could support all appointment-based businesses in the future (e.g., salons, dentists, mechanics). 
