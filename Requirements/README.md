@@ -97,11 +97,11 @@
 * Even technical requirements like upload size limits are described in plain words and supported with testing criteria (“clear message when files exceed limit”). 
 
 ### 3. Traceability – do you know where it came from?  
-  #### Each requirement can be traced back to a stakeholder need: 
-  * Customers → search businesses, upload photos, reschedule or cancel. 
-  * Business owners → advertise their business, track performance. 
-  * Employees → anticipate appointments via calendar. 
-  * Managers → set availability, manage performance. 
+#### Each requirement can be traced back to a stakeholder need: 
+* Customers → search businesses, upload photos, reschedule or cancel. 
+* Business owners → advertise their business, track performance. 
+* Employees → anticipate appointments via calendar. 
+* Managers → set availability, manage performance. 
 
 ### 4. Non-functional requirements are linked to functional ones (as noted in your document).  
 * Performance connects to requirements like calendar (4), booking (5), messaging (8). 
