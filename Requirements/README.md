@@ -12,10 +12,10 @@
 ## 3. Requirements Elicitation 
 - We will gather up the necessary requirements by brainstorming within the group on the a set of questions. 
 - A list of questions we will ask is: 
-  1. What makes it hard to set up appointments? 
-  2. Why are some businesses disorganized? 
-  3. How can an app improve upon existing methods? 
-  4. Are businesses usually what they advertise?
+  - What makes it hard to set up appointments? 
+  - Why are some businesses disorganized? 
+  - How can an app improve upon existing methods? 
+  - Are businesses usually what they advertise?
 - What features can be added to make the whole app worth it for new customers? 
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
