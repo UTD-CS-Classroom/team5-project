@@ -12,10 +12,12 @@
 ## 3. Requirements Elicitation 
 - We will gather up the necessary requirements by brainstorming within the group on the a set of questions. 
 - A list of questions we will ask is: 
+```
 1. What makes it hard to set up appointments? 
 2. Why are some businesses disorganized? 
 3. How can an app improve upon existing methods? 
-4. Are businesses usually what they advertise? 
+4. Are businesses usually what they advertise?
+```
 - What features can be added to make the whole app worth it for new customers? 
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
@@ -97,7 +99,7 @@
 * Even technical requirements like upload size limits are described in plain words and supported with testing criteria (“clear message when files exceed limit”). 
 
 ### 3. Traceability – do you know where it came from?  
-* Each requirement can be traced back to a stakeholder need: 
+#### Each requirement can be traced back to a stakeholder need: 
 * Customers → search businesses, upload photos, reschedule or cancel. 
 * Business owners → advertise their business, track performance. 
 * Employees → anticipate appointments via calendar. 
