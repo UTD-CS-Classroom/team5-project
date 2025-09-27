@@ -20,7 +20,7 @@
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
 ## 4. Requirements Specification
-### Functional requirements
+### 1. Functional requirements
   * The system shall let users search businesses by location, specialty, and next available time. 
   * The system shall let users set a budget range that is applied during the booking step without showing exact prices before booking. 
   * The system shall show a profile for each employer with specialties, experience, and a small portfolio. 
@@ -35,44 +35,36 @@
   * The system shall let businesses set their own availability and blackout dates. 
   * The system shall let businesses mark an appointment as confirmed, completed, or no show.
 
-### Non-functional requirements
+### 2. Non-functional requirements
   * Performance
     The system shall complete 50% of page loads and actions within two seconds for at least ninety five percent of requests and within four seconds for at least ninety nine percent of requests.
     Connects to requirements 1, 3, 4, 5, 7, 9, 10, 11, 13,  
-
   * Security and privacy 
     The system shall protect all personal data and images by using secure connections in the browser and encryption when stored. 
  Connects to requirements 5, 6, 7, 8, 9, 11, 12. 
-
   * Availability 
     The system shall provide at least 99.5% uptime for booking and calendar features during posted shop hours. 
  Connects to requirements 1, 3, 4, 5, 7, 10, 13 
-
   * Accessibility 
     The system shall follow the Web Content Accessibility Guidelines version two point one at level double A. It shall make forms, color contrast, labels, and keyboard only navigation usable for people with disabilities. This supports requirements 1, 3, 4, 5, and 11. 
-
   * Upload limits
     The system shall enforce a total upload limit of 25mb/appointment and shall reject files that exceed this limit with a clear message. 
  Connects to requirements 8, 9. 
 
-## Requirements in two formats 
-### 3a. Text based in natural language 
+### 3. Requirements in two formats 
+#### a. Text based in natural language 
 * Calendar with bookable slots 
   We will show a simple calendar for each business that clearly lists open times you can pick. This matters because people want to see what is actually free before they enter details. We will test it by opening the page and making sure the calendar loads, shows the right free times, and blocks double bookings when two people try the same slot. 
-
 * Message thread before the visit 
   For every appointment there will be a message thread so the customer and the business can talk first. This helps both sides agree on the style and any special needs. We will test it by creating an appointment and checking that both the customer and the business can send and read messages, and that the messages stay with that appointment. 
-
 * Reference photos 
   Customers can upload up to three photos with a total size of 25mb for a booking. This lets the business see what the customer wants without making the site slow. We will test by trying files inside the limit and above the limit and checking that the system accepts the first group and shows a clear message for the second group. 
-
 * Fast enough to feel smooth 
   Most pages and actions should finish within two seconds for almost all requests, and no slower than four seconds for nearly all others. This keeps people from dropping off during booking. We will test this with a basic load test that simulates real traffic and records how long each page and action takes. 
-
 * Protect personal data and images 
   All personal data and images will be protected in two ways. Traffic in the browser uses secure transport, and stored data uses encryption. This keeps customer and shop information safe. We will test by checking the site uses secure connections everywhere and by reviewing how the database and file storage are set up for encryption. 
 
-### 3b. UML diagram
+#### b. UML diagram
 <img width="1177" height="1567" alt="image" style="border-radius: 10px;" src="https://github.com/user-attachments/assets/b12abdf5-296e-4860-8c3e-ad83558e64e4" />
 
 ## 5. Requirement Validation 
