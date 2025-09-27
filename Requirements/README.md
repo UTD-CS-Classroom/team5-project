@@ -4,23 +4,22 @@
 * This idea will be a hybrid, because the first initial parts will be plan-driven for the core elements of the application. And then agile so we can add features according to any upcoming new ideas that will make the application more pleasant to use.
 
 ## 2. Stakeholders 
-==Business owners:== They will be able to advertise their business and see how well it is doing. 
-==Customers:== Have a centralized way to set up appointments with businesses in a convenient manner. 
-==Employees of the businesses:== Have an anticipated way to get ready for customers. 
-==Business managers:== Set a schedule and track the shop performance. 
+`Business owners:` They will be able to advertise their business and see how well it is doing. 
+`Customers:` Have a centralized way to set up appointments with businesses in a convenient manner. 
+`Employees of the businesses:` Have an anticipated way to get ready for customers. 
+`Business managers:` Set a schedule and track the shop performance. 
 
 ## 3. Requirements Elicitation 
 - We will gather up the necessary requirements by brainstorming within the group on the a set of questions. 
 - A list of questions we will ask is: 
-  1. What makes it hard to set up appointments? 
-  2. Why are some businesses disorganized? 
-  3. How can an app improve upon existing methods? 
-  4. Are businesses usually what they advertise? 
-
+1. What makes it hard to set up appointments? 
+2. Why are some businesses disorganized? 
+3. How can an app improve upon existing methods? 
+4. Are businesses usually what they advertise? 
 - What features can be added to make the whole app worth it for new customers? 
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
-## 4.Requirements Specification
+## 4. Requirements Specification
 1. Functional requirements:
   * The system shall let users search businesses by location, specialty, and next available time. 
   * The system shall let users set a budget range that is applied during the booking step without showing exact prices before booking. 
@@ -76,7 +75,7 @@
 ### 3b. UML diagram
 <img width="1177" height="1567" alt="image" style="border-radius: 10px;" src="https://github.com/user-attachments/assets/b12abdf5-296e-4860-8c3e-ad83558e64e4" />
 
-## Requirement Validation 
+## 5. Requirement Validation 
 1. Verifiability – can you test it?  
   * Functional requirements are testable with direct actions. 
     - For search, we can test by searching for location, specialty, and next available time, and confirm the results match. 
