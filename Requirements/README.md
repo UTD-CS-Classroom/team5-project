@@ -20,7 +20,7 @@
 - We will first bear in mind security if the customer decides to use his address, interface for easy accessibility, and efficient communication for organizing the requirements.
 
 ## 4. Requirements Specification
-### 1. Functional requirements:
+### Functional requirements:
   * The system shall let users search businesses by location, specialty, and next available time. 
   * The system shall let users set a budget range that is applied during the booking step without showing exact prices before booking. 
   * The system shall show a profile for each employer with specialties, experience, and a small portfolio. 
@@ -35,7 +35,7 @@
   * The system shall let businesses set their own availability and blackout dates. 
   * The system shall let businesses mark an appointment as confirmed, completed, or no show.
 
-### 2. Non-functional requirements
+### Non-functional requirements
   * Performance
     The system shall complete 50% of page loads and actions within two seconds for at least ninety five percent of requests and within four seconds for at least ninety nine percent of requests.
     Connects to requirements 1, 3, 4, 5, 7, 9, 10, 11, 13,  
