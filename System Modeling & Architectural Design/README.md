@@ -18,14 +18,14 @@ We assumed a thin client that talks to a backend which orchestrates the calendar
 We separated people from bookings by using User as a general class and then Customer and BusinessUser as children. Appointment holds the lifecycle methods because status changes belong there. We used composition for the message thread and photos since they live and die with an appointment and We used aggregation for availability since a business owns its schedule. These choices reflect search, booking, unique ids, uploads, approval or decline, calendar control, and messaging from our requirements.
 
 ## 4. Architectural Design Decisions
-### Requirements chosen:
+### Requirements chosen
 - The system shall protect all personal data and images by using secure connections in the browser and encryption when stored.
 - Design Decision: Implement end-to-end encryption by enforcing HTTPS by using TLS certificates for all moving data. Also 
 - The system shall enforce a total upload limit of 25mb/appointment and shall reject files that exceed this limit with a clear message.
 
 ## 5. High-Level Architecture (4+1 Views)
 
-### Logical View:
+### Logical View
 
 <img width="521" height="181" alt="Logical" src="https://github.com/user-attachments/assets/6bb57c43-023e-4560-996d-8c283258cea5" />
 
@@ -33,7 +33,7 @@ We separated people from bookings by using User as a general class and then Cust
 - The Backend handles all requests, connects to the database, and manages bookings, messages, and files.
 - This view shows how the main components are linked and share information.
 
-### Process View:
+### Process View
 
 <img width="521" height="341" alt="Process" src="https://github.com/user-attachments/assets/7a5fac84-d86e-4efe-86a0-c57f50682856" />
 
@@ -46,12 +46,12 @@ Client-server is the best for my system because I will be having users of the ap
 
 Repository is good fit for the system as the information for users has to stay somewhere. A repository will be good to keep user data and business data and will be helpful so user devices don’t have to keep so much information about their appointments, they can just make an online account to keep their desired information save in repository. 
 
-### Client-server:
+### Client-server
 `Strength:` Easy processing for appointments sent so they can be processed remotely so user devices don’t need much processing power, and this will allow for stronger processing power for future features regardless of user device used.
 
 `Limitation:` Multiple servers will eventually be used to keep the application going whenever a server goes down. This will cost a lot of money whenever the application gets upscaled or just to make sure the application stays up even after the only working server fails.
 
-### Repository:
+### Repository
 `Strength:` a centralized database to keep track of all data from users and appointments so everything is easy to find.
 
 `Limitation:` This centralized database will make for security risks if there is an attack on the repository server. This will be a flaw even if there is a lot of security protocols used.
