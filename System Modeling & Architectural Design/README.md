@@ -18,7 +18,7 @@ We assumed a thin client that talks to a backend which orchestrates the calendar
 We separated people from bookings by using User as a general class and then Customer and BusinessUser as children. Appointment holds the lifecycle methods because status changes belong there. We used composition for the message thread and photos since they live and die with an appointment and We used aggregation for availability since a business owns its schedule. These choices reflect search, booking, unique ids, uploads, approval or decline, calendar control, and messaging from our requirements.
 
 ## 4. Architectural Design Decisions
-Requirements chosen:
+### Requirements chosen:
 - The system shall protect all personal data and images by using secure connections in the browser and encryption when stored.
 - Design Decision: Implement end-to-end encryption by enforcing HTTPS by using TLS certificates for all moving data. Also 
 - The system shall enforce a total upload limit of 25mb/appointment and shall reject files that exceed this limit with a clear message.
