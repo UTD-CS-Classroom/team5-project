@@ -26,22 +26,20 @@ Requirements chosen:
 ## 5. High-Level Architecture (4+1 Views)
 
 Logical View:
+
 <img width="521" height="181" alt="Logical" src="https://github.com/user-attachments/assets/6bb57c43-023e-4560-996d-8c283258cea5" />
 
-The system has three main parts: the Customer App, the Business Portal, and the Backend Server.
-
-The Backend handles all requests, connects to the database, and manages bookings, messages, and files.
-
-This view shows how the main components are linked and share information.
+- The system has three main parts: the Customer App, the Business Portal, and the Backend Server.
+- The Backend handles all requests, connects to the database, and manages bookings, messages, and files.
+- This view shows how the main components are linked and share information.
 
 Process View:
+
 <img width="521" height="341" alt="Process" src="https://github.com/user-attachments/assets/7a5fac84-d86e-4efe-86a0-c57f50682856" />
 
-This process shows how booking moves through the system at runtime. 
-
-The customer sends a booking request to the backend, which checks availability and forwards it to the business. 
-
-The business approves or declines the request, and the backend sends a notification back to the customer. 
+- This process shows how booking moves through the system at runtime. 
+- The customer sends a booking request to the backend, which checks availability and forwards it to the business. 
+- The business approves or declines the request, and the backend sends a notification back to the customer. 
 
 ## 6. Use of Architectural Patterns
 Client-server is the best for my system because I will be having users of the appointment app. All the appointments that are made will be put into the server so they are processed for other functions such as setting them into calendars, set up notifications, and inform the businesses of any appointments they will have.
