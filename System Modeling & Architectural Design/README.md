@@ -48,8 +48,10 @@ Repository is good fit for the system as the information for users has to stay s
 
 ### Client-server:
 `Strength:` Easy processing for appointments sent so they can be processed remotely so user devices don’t need much processing power, and this will allow for stronger processing power for future features regardless of user device used.
+
 `Limitation:` Multiple servers will eventually be used to keep the application going whenever a server goes down. This will cost a lot of money whenever the application gets upscaled or just to make sure the application stays up even after the only working server fails.
 
 ### Repository:
 `Strength:` a centralized database to keep track of all data from users and appointments so everything is easy to find.
+
 `Limitation:` This centralized database will make for security risks if there is an attack on the repository server. This will be a flaw even if there is a lot of security protocols used.
