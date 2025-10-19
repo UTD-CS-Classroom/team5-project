@@ -25,7 +25,7 @@ Requirements chosen:
 
 ## 5. High-Level Architecture (4+1 Views)
 
-`Logical View:`
+### Logical View:
 
 <img width="521" height="181" alt="Logical" src="https://github.com/user-attachments/assets/6bb57c43-023e-4560-996d-8c283258cea5" />
 
@@ -33,7 +33,7 @@ Requirements chosen:
 - The Backend handles all requests, connects to the database, and manages bookings, messages, and files.
 - This view shows how the main components are linked and share information.
 
-`Process View:`
+### Process View:
 
 <img width="521" height="341" alt="Process" src="https://github.com/user-attachments/assets/7a5fac84-d86e-4efe-86a0-c57f50682856" />
 
