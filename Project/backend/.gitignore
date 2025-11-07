@@ -7,36 +7,32 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Virtual Environment
+env/
 venv/
 ENV/
-env/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
-appointments.db
+
+# Uploaded files
+uploads/
 
 # IDE
+.DS_Store
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Uploads
-backend/uploads/*
-!backend/uploads/.gitkeep
-
-# Test files
-test*.txt
-*.bin
-
-# Logs
-*.log
-
-frontend
+# Backup files
+*.backup
