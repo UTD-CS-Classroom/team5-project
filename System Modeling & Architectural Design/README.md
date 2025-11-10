@@ -1,6 +1,7 @@
 ## 1. Process Model (Activity Diagram) 
-<img width="624" height="353" alt="Picture1" src="https://github.com/user-attachments/assets/9bf98576-c057-4877-ac8e-ced55d0d1c5c" />
-<img width="624" height="316" alt="Picture2" src="https://github.com/user-attachments/assets/b0c77e9e-c9cb-49ae-af1d-1c5354c59efa" />
+<img width="922" height="1006" alt="image" src="https://github.com/user-attachments/assets/8ce6f0b9-691b-4d6c-976f-0a40c939b2f4" />
+
+
 
 This workflow shows the core journey in our app from search to booking to completion. It includes the main roles which are the customer, the business, the system, and the two subsystems that handle calendars and notifications. It also highlights the key decision where a business approves or rejects a booking and it shows the parallel work where messages and notifications happen at the same time. 
 
