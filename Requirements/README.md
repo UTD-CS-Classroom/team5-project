@@ -1,7 +1,7 @@
 ## 1. Project Overview
 * Our idea is a general appointment app that we will call "AppointmentsOnTheGo" with the intention of helping any person to have an easy way to contact small or big businesses around them. We will have some locations already in the app for convenience. There will also be a calendar side feature to give notifications when the appointment they made is close.  
 * There will be some extra adjustments over time that will be added to make sure the app is easy to navigate and understand. The main core will be in providing a fast and easy interface for people. In order to see if they find what they are looking for or find something they did not know needed.
-* This idea will be a hybrid, because the first initial parts will be plan-driven for the core elements of the application. And then agile so we can add features according to any upcoming new ideas that will make the application more pleasant to use.
+* This idea will be a plan-driven, because the first initial parts will be plan-driven for the core elements of the application. We will implement what is on the deliverables. 
 
 ## 2. Stakeholders 
 - `Business owners:` They will be able to advertise their business and see how well it is doing. 
@@ -108,5 +108,5 @@
 * Security and privacy connect to handling of personal data and uploaded files (5, 6, 7, 8, 9, 11, 12). 
 
 ### 5. Adaptability – can it be changed later? 
-* The hybrid approach (plan-driven for core + agile for features) ensures adaptability. 
+* The plan-driven approach (plan-driven for core) ensures base adaptability for future changes that can help user experience. 
 * These requirements are written generally enough that the same structure could support all appointment-based businesses in the future (e.g., salons, dentists, mechanics). 
