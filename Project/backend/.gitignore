@@ -36,3 +36,8 @@ uploads/
 
 # Backup files
 *.backup
+
+# Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
