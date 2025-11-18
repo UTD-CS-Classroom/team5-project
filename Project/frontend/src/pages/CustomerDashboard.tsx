@@ -130,7 +130,7 @@ export default function CustomerDashboard() {
             <Card className="border shadow-sm">
               <CardContent className="py-12 text-center">
                 <p className="text-gray-500 mb-4">No upcoming appointments</p>
-                <Button onClick={() => navigate('/')}>Find a Business</Button>
+                {/* <Button onClick={() => navigate('/')}>Find a Business</Button> */}
               </CardContent>
             </Card>
           ) : (
@@ -176,7 +176,7 @@ export default function CustomerDashboard() {
         </div>
 
         {/* Quick Actions */}
-        <Card className="border shadow-sm">
+        {/* <Card className="border shadow-sm">
           <CardHeader>
             <CardTitle className="text-lg font-semibold text-gray-900">Quick Actions</CardTitle>
             <CardDescription>Manage your appointments and profile</CardDescription>
@@ -191,7 +191,7 @@ export default function CustomerDashboard() {
               </Button>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
       </main>
     </div>
   );

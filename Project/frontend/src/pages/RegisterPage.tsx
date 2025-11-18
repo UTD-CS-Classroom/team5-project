@@ -119,7 +119,7 @@ export default function RegisterPage() {
               <span className="text-white font-bold text-2xl">A</span>
             </div>
             <h1 className="text-3xl font-bold text-gray-900">
-              AppointMe
+              AppointmentsOnTheGo
             </h1>
           </div>
           <p className="text-gray-600">Create your account</p>

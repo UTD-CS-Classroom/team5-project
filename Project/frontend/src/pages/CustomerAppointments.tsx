@@ -190,7 +190,7 @@ export default function CustomerAppointments() {
               <Card>
                 <CardContent className="py-8 text-center">
                   <p className="text-gray-500 mb-4">No upcoming appointments</p>
-                  <Button onClick={() => navigate('/')}>Find a Business</Button>
+                  {/* <Button onClick={() => navigate('/')}>Find a Business</Button> */}
                 </CardContent>
               </Card>
             ) : (

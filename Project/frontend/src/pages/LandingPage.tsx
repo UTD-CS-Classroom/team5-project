@@ -102,7 +102,7 @@ export default function LandingPage() {
               <span className="text-white font-bold text-xl">A</span>
             </div>
             <h1 className="text-2xl font-bold text-gray-900">
-              AppointMe
+              AppointmentsOnTheGo
             </h1>
           </div>
           <div className="flex items-center space-x-4">
@@ -301,7 +301,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="w-full border-t mt-auto py-10 bg-gray-50">
         <div className="max-w-7xl mx-auto px-8 text-center text-gray-600">
-          <p className="font-medium">&copy; 2025 AppointMe. All rights reserved.</p>
+          <p className="font-medium">&copy; 2025 AppointmentsOnTheGo. All rights reserved.</p>
         </div>
       </footer>
     </div>
